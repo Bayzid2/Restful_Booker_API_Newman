@@ -33,6 +33,7 @@ npm install -g newman-reporter-htmlextra
 ## Test case list:
  ### 1.Create Booking
    > i.Create Data Sets with dynamic values
+  
    > ii.Verify response time
 ### 2.Booking Status
 In the test case you need to validate the following field values:
@@ -58,6 +59,7 @@ In the test case you need to validate the following field values:
 In the test case you need to validate the following field values:
 
    > i.Successfull message
+  
    > ii.Verify response time
 ### Booking Status after Update
 In the test case you need to validate the following field values:
@@ -77,6 +79,7 @@ In the test case you need to validate the following field values:
 
 ### Delete Booking
    > i.Verify Status code
+   
    > ii.Verify response time
 
 
