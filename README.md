@@ -1,3 +1,4 @@
+# Restful Booker API using Postman & Newman
 ## How to run this project
 
 - Clone this project
@@ -29,8 +30,54 @@ npm install -g newman-reporter-htmlextra
  ```
 ## API Documentation:
 - https://documenter.getpostman.com/view/40715992/2sAYJ9BJq1
+## Test case list:
+ ### 1.Create Booking
+   > Create Data Sets with dynamic values
+### 2.Booking Status
+In the test case you need to validate the following field values:
 
-## Screenshots
+   > i.First Name
+
+   > ii.Last Name
+
+   > iii.Total Price
+
+   > iv.Deposit Paid
+
+   > v.Checkin Date
+
+   > vi.Checkout Date
+
+   > vii.Additional Needs
+
+### Token
+   > i.Generate Token for authentication
+
+### Update Booking
+In the test case you need to validate the following field values:
+
+   > i.Successfull message
+### Booking Status after Update
+In the test case you need to validate the following field values:
+   > i.First Name
+
+   > ii.Last Name
+
+   > iii.Total Price
+
+   > iv.Deposit Paid
+
+   > v.Checkin Date
+
+   > vi.Checkout Date
+
+   > vii.Additional Needs
+
+### Delete Booking
+   > i.Verify Status code
+
+
+## Newman Report Summary:
 
 ![App Screenshot](https://github.com/user-attachments/assets/521b2ed7-9613-485f-b985-ec88c7ceda73)
 ![2](https://github.com/user-attachments/assets/f0b69ce4-94dc-4c06-a67c-2fa5ca887112)
